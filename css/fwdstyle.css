@@ -1,0 +1,62 @@
+* { margin: 0; padding: 0; }
+body { background-color: #cecece; }
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 { font-family: "bebas_neueregular", Helvetica, Arial, Sans-Serif; font-size: 46pt;  color: #2e2e2e; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2); }
+h2 { font-family: "Helvetica Neue", Arial, Sans-Serif; font-size: 16pt; font-weight: lighter; color: black; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3); }
+p { font-family: "Helvetica Neue", Arial, Sans-Serif; font-size: 10pt; font-weight: lighter; color: black; text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.15); }
+a {	text-decoration: none; }
+
+#share {
+    padding: 20px 0 0 20px;
+    display: inline-block;
+}
+#twitter-widget-0 { vertical-align:top }
+.center {
+    margin: 0 auto;
+    padding: 25px 0;
+    width: 512px;
+}
+#header {
+    text-align: center; 
+    margin: 15px 0;
+    padding: 5px 0;
+}
+#button {
+    position: relative;
+    height: 297px;
+    width: 512px;
+    margin: 0 auto;
+}
+#button img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -o-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-inout;
+}
+#button img.top:hover { opacity: 0; }
+
+footer #live-total {
+    position: absolute;
+    bottom:20px;
+    left:20px;
+}
+footer #by {
+    position: absolute;
+    bottom:20px;
+    right:20px;
+}
+footer a { color: black; }
+footer a:hover { text-decoration: underline; }
